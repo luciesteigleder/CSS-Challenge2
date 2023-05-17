@@ -1,0 +1,310 @@
+
+@import url(//fonts.googleapis.com/css?family=Peddana);
+
+@import url(//fonts.googleapis.com/css?family=Khula);
+
+/*NAVIGATION*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #e9edf2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header button {
+    border: none;
+    font-family: 'Khula';
+    font-size: 16px;
+    background-color: #e9edf2;
+    padding: 5px 20px;
+}
+
+#leftnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#middlenav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#rightnav {
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#try {
+    color: white;
+    background-color: #3f9bf8;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 2px solid black;
+}
+
+#sign {
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 2px solid black;
+    border-left: 0px;
+}
+
+/*H*/
+
+#h1 {
+    background-color: #e9edf2;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Khula';
+    text-align: center;
+    margin: auto;
+}
+
+/*FIGURES SECTIONS*/
+
+#figures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#figures div {
+    border: 1px solid black;
+    height: 350px;
+    background-color: #3f4655;
+    font-family: 'Khula';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#figures img {
+    max-height: 125px;
+}
+
+.figures {
+    color: white;
+    font-size: 20px;
+}
+
+#figures p:not([class]) {
+    color: #b0b5bf;
+    text-align: center;
+    margin: 5px 40px;
+}
+
+/* TEXT*/
+
+#text {
+    background-color: #e9edf2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text p:not([id]) {
+    font-family: Peddana;
+    font-size: 40px;
+    line-height: 35px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#text button {
+    background-color: #3f9bf8;
+    color: white;
+    font-family: 'Khula';
+    font-size: 20px;
+    padding: 12px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#caption {
+    font-family: 'Khula';
+    font-size: 15px;
+}
+
+/*SECTION CLOUD*/
+
+h2 {
+    font-family: 'Khula';
+    font-size: 35px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.text2 {
+    font-family: Peddana;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    margin: 20px 350px;
+}
+
+/*SECTION PLAN*/
+
+#plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#plans img {
+    height: 150px;
+}
+
+.plantitle {
+    font-family: 'Khula';
+    font-size: 25px;
+}
+
+#plans div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.plandescr {
+    font-family: Peddana;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#monthly {
+    border-right: 1px solid #3f4655;
+}
+
+.butplans {
+    background-color: #3f9bf8;
+    color: white;
+    font-family: 'Khula';
+    font-size: 15px;
+    padding: 7px 25px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.planprice {
+    font-style: italic;
+}
+
+/*CLIENTS SECTION*/
+
+#clients {
+    background-color: #e9edf2;
+}
+
+/*FORM SECTION*/
+
+h3 {
+    font-family: 'Khula';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: #e9edf2;
+    border: 1px solid #3f4655;
+    border-radius: 2px;
+    padding: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Khula';
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+input:not([id="buttonform"]) {
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+#buttonform {
+    width: auto;
+    align-self: center;
+}
+
+form p {
+    font-family: 'Khula';
+    font-size: 14px;
+    text-align: center;
+}
+
+#data {
+    font-family: 'Khula';
+    font-size: 13px;
+    color: #3f4655;
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #3f4655;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 100px;
+    font-family: 'Khula';
+}
+
+#footerlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    list-style-position: outside;
+}
+
+h4 {
+    color: #b0b5bf;
+    font-size: 16px;
+}
+
+li {
+    color: white;
+    list-style: none;
+}
+
+#footertext {
+    color: #b0b5bf;
+    font-size: 12px;
+    text-align: center;
+}
